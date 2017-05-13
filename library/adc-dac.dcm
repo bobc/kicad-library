@@ -348,9 +348,15 @@ K 16bit ADC 8 Channels TSSOP I2C
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP ADS1298_TQFP
+D ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64
+K 24bit ADC 8 Channels PGA SPI Biopotential
+F http://www.ti.com/lit/gpn/ads1298
+$ENDCMP
+#
 $CMP ADS7828
 D 12-Bits, 8-Channels, ADC, I2C, TSSOP-16
-K I2C ADC 12Bits 
+K I2C ADC 12Bits
 F http://www.ti.com/lit/ds/symlink/ads7828.pdf
 $ENDCMP
 #
@@ -363,6 +369,18 @@ $CMP DAC08
 D DA Converter 8 bits
 K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
+$ENDCMP
+#
+$CMP DAC0808_DIP
+D 8-bit multiplying DAC
+K 8 bit multiplying DAC
+F http://www.ti.com/lit/ds/symlink/dac0808.pdf
+$ENDCMP
+#
+$CMP DAC0808_SOIC
+D 8-bit multiplying DAC
+K 8 bit multiplying DAC
+F http://www.ti.com/lit/ds/symlink/dac0808.pdf
 $ENDCMP
 #
 $CMP DAC7513_DCN
@@ -385,7 +403,7 @@ $ENDCMP
 #
 $CMP LTC1406IGN
 D ADC 8bit Low Power 20Msps, SSOP-24
-K Low Power ADC 8bit 20Msps 
+K Low Power ADC 8bit 20Msps
 F http://cds.linear.com/docs/en/datasheet/1406f.pdf
 $ENDCMP
 #
@@ -555,6 +573,18 @@ $CMP MAX5139
 D Low-Power, Single, 12-Bit, Buffered Voltage-Output DAC
 K 12-bit DAC 1CH
 F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
+$CMP MC1408_DIP
+D 8-bit multiplying DAC
+K 8 bit multiplying DAC
+F http://www.pinballpcb.com/datasheets/OnMC1408-dac.pdf
+$ENDCMP
+#
+$CMP MC1408_SOIC
+D 8-bit multiplying DAC
+K 8 bit multiplying DAC
+F http://www.pinballpcb.com/datasheets/OnMC1408-dac.pdf
 $ENDCMP
 #
 $CMP MCP3002
