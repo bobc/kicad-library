@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="server"
+           fetch="https://github.com" />
+
+  <default revision="refs/heads/master"
+           remote="server"
+           sync-j="4" />
+
+  <project name="KiCad/Air_Coils_SML_NEOSID.pretty" remote="server" path="Air_Coils_SML_NEOSID.pretty"/>
+  <project name="KiCad/Battery_Holders.pretty" remote="server" path="Battery_Holders.pretty"/>
+  
+</manifest>
